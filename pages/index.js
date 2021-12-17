@@ -48,7 +48,7 @@ const Home = () => {
         <button type="submit">로그인하기</button>
       </form>
       <Link href="/user">
-        <a>로그인 페이지(SSR 적용 x)로 이동</a>
+        <a>SSR 적용 페이지로 이동하기</a>
       </Link>
     </>
   );
