@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 
 const Home = () => {
   const [id, setId] = useState("");
@@ -46,6 +47,9 @@ const Home = () => {
         />
         <button type="submit">로그인하기</button>
       </form>
+      <Link href="/user">
+        <a>로그인 페이지(SSR 적용 x)로 이동</a>
+      </Link>
     </>
   );
 };
